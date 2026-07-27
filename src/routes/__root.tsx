@@ -77,14 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Alwin — B.Tech CSE (AI) | Security Testing" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Alwin, a B.Tech CSE (AI) student at Karunya Institute focused on security testing, application security, and how systems fail.",
+      },
+      { name: "author", content: "Alwin" },
+      { property: "og:title", content: "Alwin — B.Tech CSE (AI) | Security Testing" },
+      {
+        property: "og:description",
+        content:
+          "Learning how systems break, so I can help build ones that don't. Software & security testing portfolio.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
