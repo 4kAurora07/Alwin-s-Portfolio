@@ -80,9 +80,9 @@ function Portfolio() {
         id="top"
         className="relative min-h-screen flex items-center overflow-hidden"
       >
-        <div className="absolute inset-0 grid-bg opacity-60" />
+        <div className="absolute inset-0 grid-bg opacity-50" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/40 to-background" />
-        <div className="absolute top-1/3 -left-32 h-96 w-96 rounded-full bg-primary/10 blur-3xl" />
+        <div className="absolute top-1/3 -left-32 h-96 w-96 rounded-full bg-primary/5 blur-3xl" />
 
         <div className="relative max-w-6xl mx-auto px-6 pt-32 pb-20 w-full">
           <p
