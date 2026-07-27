@@ -311,6 +311,11 @@ function Portfolio() {
             },
             {
               icon: Workflow,
+              title: "Toolset",
+              items: ["Docker", "MobSF", "ADB (Android Platform Tools)"],
+            },
+            {
+              icon: Workflow,
               title: "Process",
               items: ["Scrum / Agile", "Jira"],
             },
