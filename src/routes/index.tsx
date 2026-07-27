@@ -46,7 +46,7 @@ function Portfolio() {
       <header
         className={`fixed top-0 inset-x-0 z-50 transition-all ${
           scrolled
-            ? "backdrop-blur-md bg-background/70 border-b border-border"
+            ? "backdrop-blur-md bg-background/85 border-b border-border"
             : "bg-transparent"
         }`}
       >
@@ -80,9 +80,9 @@ function Portfolio() {
         id="top"
         className="relative min-h-screen flex items-center overflow-hidden"
       >
-        <div className="absolute inset-0 grid-bg opacity-60" />
+        <div className="absolute inset-0 grid-bg opacity-50" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/40 to-background" />
-        <div className="absolute top-1/3 -left-32 h-96 w-96 rounded-full bg-primary/10 blur-3xl" />
+        <div className="absolute top-1/3 -left-32 h-96 w-96 rounded-full bg-primary/5 blur-3xl" />
 
         <div className="relative max-w-6xl mx-auto px-6 pt-32 pb-20 w-full">
           <p
@@ -120,17 +120,17 @@ function Portfolio() {
             style={{ animationDelay: "0.4s" }}
           >
             <a
-              href="#experience"
-              className="group inline-flex items-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-all shadow-lg shadow-primary/20"
+              href="#contact"
+              className="group inline-flex items-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-all"
             >
-              View Projects
+              Contact Me
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="#contact"
+              href="#experience"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-md border border-border hover:border-primary hover:text-primary transition-colors font-medium"
             >
-              Contact Me
+              View Experience
             </a>
           </div>
         </div>
@@ -308,6 +308,11 @@ function Portfolio() {
                 "Mobile APK security testing",
                 "OWASP-style vuln categorization",
               ],
+            },
+            {
+              icon: Workflow,
+              title: "Toolset",
+              items: ["Docker", "MobSF", "ADB (Android Platform Tools)"],
             },
             {
               icon: Workflow,
@@ -491,7 +496,7 @@ function Portfolio() {
             </div>
             <button
               type="submit"
-              className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-all shadow-lg shadow-primary/20"
+              className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-all"
             >
               Send message
               <ArrowRight className="h-4 w-4" />

@@ -36,27 +36,27 @@
 
 :root {
   --radius: 0.625rem;
-  /* Dark theme by default — portfolio is dark-first */
-  --background: oklch(0.16 0.02 250);
-  --foreground: oklch(0.97 0.005 250);
-  --card: oklch(0.2 0.025 250);
-  --card-foreground: oklch(0.97 0.005 250);
-  --popover: oklch(0.2 0.025 250);
-  --popover-foreground: oklch(0.97 0.005 250);
-  --primary: oklch(0.72 0.19 240);
-  --primary-foreground: oklch(0.12 0.02 250);
-  --accent-glow: oklch(0.78 0.2 235);
-  --secondary: oklch(0.26 0.03 250);
-  --secondary-foreground: oklch(0.97 0.005 250);
-  --muted: oklch(0.24 0.025 250);
-  --muted-foreground: oklch(0.68 0.02 250);
-  --accent: oklch(0.72 0.19 240);
-  --accent-foreground: oklch(0.12 0.02 250);
-  --destructive: oklch(0.65 0.22 25);
-  --destructive-foreground: oklch(0.98 0.005 250);
-  --border: oklch(0.28 0.03 250);
-  --input: oklch(0.28 0.03 250);
-  --ring: oklch(0.72 0.19 240);
+  /* Light theme — warm off-white with deep teal accent */
+  --background: oklch(0.985 0.004 90);
+  --foreground: oklch(0.2 0.01 250);
+  --card: oklch(0.975 0.005 90);
+  --card-foreground: oklch(0.2 0.01 250);
+  --popover: oklch(0.985 0.004 90);
+  --popover-foreground: oklch(0.2 0.01 250);
+  --primary: oklch(0.44 0.07 220);
+  --primary-foreground: oklch(0.985 0.004 90);
+  --accent-glow: oklch(0.55 0.08 210);
+  --secondary: oklch(0.94 0.006 90);
+  --secondary-foreground: oklch(0.2 0.01 250);
+  --muted: oklch(0.955 0.005 90);
+  --muted-foreground: oklch(0.5 0.01 250);
+  --accent: oklch(0.44 0.07 220);
+  --accent-foreground: oklch(0.985 0.004 90);
+  --destructive: oklch(0.55 0.2 25);
+  --destructive-foreground: oklch(0.985 0.004 90);
+  --border: oklch(0.9 0.005 90);
+  --input: oklch(0.9 0.005 90);
+  --ring: oklch(0.44 0.07 220);
 }
 
 @layer base {
@@ -80,8 +80,8 @@
 
 @utility grid-bg {
   background-image:
-    radial-gradient(circle at 1px 1px, oklch(0.72 0.19 240 / 0.15) 1px, transparent 0);
-  background-size: 28px 28px;
+    radial-gradient(circle at 1px 1px, oklch(0.44 0.07 220 / 0.05) 1px, transparent 0);
+  background-size: 32px 32px;
 }
 
 @utility text-gradient {
