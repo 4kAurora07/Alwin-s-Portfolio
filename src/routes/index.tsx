@@ -46,7 +46,7 @@ function Portfolio() {
       <header
         className={`fixed top-0 inset-x-0 z-50 transition-all ${
           scrolled
-            ? "backdrop-blur-md bg-background/70 border-b border-border"
+            ? "backdrop-blur-md bg-background/85 border-b border-border"
             : "bg-transparent"
         }`}
       >
