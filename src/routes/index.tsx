@@ -120,17 +120,17 @@ function Portfolio() {
             style={{ animationDelay: "0.4s" }}
           >
             <a
-              href="#experience"
-              className="group inline-flex items-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-all shadow-lg shadow-primary/20"
+              href="#contact"
+              className="group inline-flex items-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-all"
             >
-              View Projects
+              Contact Me
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="#contact"
+              href="#experience"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-md border border-border hover:border-primary hover:text-primary transition-colors font-medium"
             >
-              Contact Me
+              View Experience
             </a>
           </div>
         </div>
